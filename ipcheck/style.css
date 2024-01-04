@@ -1,0 +1,23 @@
+.cen{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.main{
+    margin-top: 20px;
+    font-family: vazir;
+    width: 100px;
+    height: 100px;
+}
+@font-face {
+    font-family: vazir;
+    src: url('../fonts/vazir_black.ttf');
+}
+.address{
+    transition: 1s;
+}
+.address:hover{
+    background-color: darkgoldenrod;
+    color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+}

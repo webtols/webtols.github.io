@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check IP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container">
+      <a class="navbar-brand text-light" href="#">Web Tools</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-theme="dark" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.html">IP Checker</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../proxy/index.html">Proxy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" aria-disabled="true" href="#">Social Media</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <form class="container main" action="#">
+        <div class="card cen" dir="rtl" style="width: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title">چک کردن آیپی</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">آیپی رو وارد کن و اطلاعات رو دریافت کن!</h6>
+              <p class="card-text">با وارد کردن آیپی در ورودی شما میتونید اطلاعات اون آیپی رو دریافت کنید!</p>
+              <hr>
+              <a href="https://github.com/OnlyRad" class="card-link address" style="margin-bottom: 5px;">گیت هاب من!</a><br>
+              <a href="https://t.me/Mamad_Mehrabi" class="card-link address">تلگرام من!</a>
+            </div>
+          </div>
+        <div class="input-group mb-3">
+            <button class="btn btn-outline-primary" type="button" id="button-addon1" onclick="requests();">CLICK</button>
+            <input type="text" class="form-control input" placeholder="Enter Your IP">
+        </div>
+        <div class="card cen" dir="rtl" style="width: 20rem;margin-top: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">خروجی:</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary out"></h6>
+              <!-- <p class="card-text">با وارد کردن آیپی در ورودی شما میتونید اطلاعات اون آیپی رو دریافت کنید!</p> -->
+              <hr>
+            </div>
+          </div>
+
+          <hr style="color: white;">
+
+          <h3 class="text-light text-center">!این وب سرویس غیر فعال است</h3>
+
+          <div class="card cen" dir="rtl" style="width: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title">با دامنه آیپی بگیر!</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">دامنه را به صورت لینک وارد کنید و آیپی بگیرید</h6>
+              <p class="card-text">برای دیدن جزییات آیپی اونو به کادر بالایی بده</p>
+              <hr>
+              <a href="https://github.com/OnlyRad" class="card-link address" style="margin-bottom: 5px;">گیت هاب من!</a><br>
+              <a href="https://t.me/Mamad_Mehrabi" class="card-link address">تلگرام من!</a>
+            </div>
+          </div>
+        <div class="input-group mb-3">
+            <button class="btn btn-outline-primary" type="button" id="button-addon1" onclick="">CLICK</button>
+            <input type="text" class="form-control in" placeholder="Enter Your Domain">
+        </div>
+
+        <div class="card cen" dir="rtl" style="width: 20rem;margin-top: 10px;">
+          <div class="card-body">
+            <h5 class="card-title">خروجی:</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary out2"></h6>
+            <hr>
+          </div>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

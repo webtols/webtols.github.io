@@ -1,0 +1,18 @@
+.disp{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+@font-face {
+    font-family: ubuntu;
+    src: url('fonts/ubuntu.ttf');
+}
+@font-face {
+    font-family: vazir;
+    src: url('fonts/vazir_black.ttf');
+}
+.ubuntu{
+    font-family: ubuntu;
+}
+.vazir{
+    font-family: vazir;
+}
