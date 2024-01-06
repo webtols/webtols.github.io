@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web tools</title>
+    <title>YouTube Dl</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
@@ -17,7 +17,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="ipcheck/index.html">IP Checker</a>
@@ -26,39 +26,39 @@
                 <a class="nav-link text-light" href="proxy/index.html">Proxy</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="ytDownloader/index.html">YouTube Downloader</a>
+                <a class="nav-link text-light" href="index.html">YouTube Downloader</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-    <section class="container text-center">
-        <div class="card disp" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title ubuntu">IP Checker</h5>
-              <p class="card-text vazir">با این ابزار میتونید آیپی کشور های مختلف را بدست بیارید!</p>
-              <a href="ipcheck/index.html" class="btn btn-primary vazir">استفاده از ابزار</a>
-            </div>
-        </div>
 
-        <div class="card disp" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+      <form class="container main" action="#">
+        <div class="card cen" dir="rtl" style="width: 20rem;">
             <div class="card-body">
-              <h5 class="card-title ubuntu">IP Checker</h5>
-              <p class="card-text vazir">با این ابزار میتونید آیپی کشور های مختلف را بدست بیارید!</p>
-              <a href="ipcheck/index.html" class="btn btn-primary vazir">استفاده از ابزار</a>
+              <h5 class="card-title">یوتیوب دانلودر</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">دانلود موزیک و ویدیوی یوتیوب</h6>
+              <p class="card-text">لینک ویدیوی مورد نظر رو کپی کنید و توی قسمت ورودی بزارید و کلیک کنید و منتظر بمونید...</p>
+              <hr>
+              <a href="https://github.com/OnlyRad" class="card-link address" style="margin-bottom: 5px;">گیت هاب من!</a><br>
+              <a href="https://t.me/Mamad_Mehrabi" class="card-link address">تلگرام من!</a>
             </div>
           </div>
-    </section>
+        <div class="input-group mb-3">
+            <button class="btn btn-outline-primary" type="button" id="button-addon1" onclick="requests();">CLICK</button>
+            <input type="text" class="form-control input" placeholder="Enter Your Link">
+        </div>
+        <div class="card cen" dir="rtl" style="width: 20rem;margin-top: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">خروجی:</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary out"></h6>
+              <hr>
+            </div>
+          </div>
 
-      <div class="container">
-        <h1 class="text-light vazir" dir="rtl">اینجا قراره پر از ابزار بشه...!</h1>
-      </div>
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
