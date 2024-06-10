@@ -20,8 +20,9 @@ function requests(){
         let vi360 = data["formats"][1]["url"];
         let audio = data["formats"][3]["url"];
         let photo = data["thumbnails"][1]["url"];
+        let veiw = data["viewCount"]
         console.log(photo)
-        h6.innerHTML=`عملیات : true<hr>نام چنل: ${name}<br>عنوان ویدیو : ${title}<br>لینک برای دانلود:<br><p dir="ltr">Video 720p: <a href="${vi720}">CLICK ME</a><br>Video 360p: <a href="${vi360}">CLICK ME</a><br>Audio: <a href="${audio}">CLICK ME</a></p><hr>تامبنیل ویدیوی مورد نظر:<br><img src=${photo} alt="thumbnails">`;
+        h6.innerHTML=`عملیات : true<hr>نام چنل: ${name}<br>عنوان ویدیو : ${title}<br>لینک برای دانلود:<br><p dir="ltr">Video 720p: <a href="${vi720}">CLICK ME</a><br>Video 360p: <a href="${vi360}">CLICK ME</a><br>Audio: <a href="${audio}">CLICK ME</a></p><hr>تعداد ویو های ویدیو: ${veiw}`;
       }
       else{
         let message = data["message"];
